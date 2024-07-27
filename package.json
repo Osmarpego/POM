@@ -1,0 +1,24 @@
+{
+  "name": "pom",
+  "version": "1.0.0",
+  "description": "Automation Framework with Cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run-dashboard": "npx cypress run --record --key a3e5ca9c-60d0-449c-bbac-677d4b07358b",
+    "cy:update-snapshots": "cypress run --env updateSnapshots=true"
+  },
+  "keywords": [
+    "Automation",
+    "Framework",
+    "Cypress",
+    "Dashboard"
+  ],
+  "author": "Osmar Peña",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.13.1",
+    "prettier": "^3.3.3"
+  }
+}
